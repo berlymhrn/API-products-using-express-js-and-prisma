@@ -1,9 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/products/(.*)",
-      "dest": "src/index.js"
-    }
+  "rewrites": [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
